@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(image\ 152.png);
+    height: 89.6vh;
+    width: 100vw;
+    border-radius: 8px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.nav-logo {
+    height: 55px;
+    width: 55px;
+    margin-left: 6%;
+}
+
+.site {
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar-collapse {
+    margin-left: 34%;
+}
+
+li a {
+    margin: 0px 13px;
+}
+
+.btn-outline-success {
+
+
+    border: 2px solid palevioletred;
+    padding: 7px 40px;
+    color: palevioletred;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 100px;
+    outline: none;
+}
+
+.head-1 {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    padding-top: 170px;
+    padding-left: 60px;
+    width: 500px;
+
+
+}
+
+.design {
+    color: palevioletred;
+}
+
+.service {
+    color: white;
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.btn-2 {
+    background-image: linear-gradient(to right, rgb(229, 105, 126), rgb(254, 55, 88));
+    color: white;
+    margin-top: 24px;
+    margin-left: 60px;
+    border-color: white;
+}
+
+
+@media (max-width: 1441px) {
+    .main {
+        background-image: url(image\ 152.png);
+        height: 99vh;
+
+    }
+}
+
+@media (max-width: 1314px) {
+    .main {
+        background-image: url(image\ 152.png);
+        width: 100vw;
+
+    }
+}
+
+@media (max-width: 1471px) {
+    .btn-outline-success {
+        padding: 7px 30px;
+        /* Adjust padding for smaller screens */
+        margin-right: 4px;
+        /* Remove right margin for smaller screens */
+    }
+
+    .main {
+        background-image: url(image\ 152.png);
+        width: 100vw;
+
+    }
+}
+
+@media (max-width: 1151px) {
+    .btn-outline-success {
+        padding: 4px 15px;
+        /* Adjust padding for smaller screens */
+        margin-right: 6px;
+        /* Remove right margin for smaller screens */
+    }
+}
+
+@media (max-width: 1124px) {
+    .btn-outline-success {
+        padding: 2px 5px;
+        font-size: 15px;
+
+    }
+
+    .main {
+        background-image: url(image\ 152.png);
+        width: 100vw;
+
+    }
+}
+
+@media (max-width: 1087px) {
+    .btn-outline-success {
+        padding: 2px 2px;
+        font-size: 15px;
+
+    }
+
+    .main {
+        background-image: url(image\ 152.png);
+        width: 100vw;
+
+    }
+}
+
+@media (max-width: 1081px) {
+    .btn-outline-success {
+        padding: 2px 0px;
+        font-size: 15px;
+
+    }
+
+    .main {
+        background-image: url(image\ 152.png);
+        width: 100vw;
+
+    }
+}
+
+@media (max-width: 1070px) {
+    .btn-outline-success {
+        padding: 2px -2px;
+        font-size: 13px;
+
+    }
+
+    .main {
+        background-image: url(image\ 152.png);
+        width: 100vw;
+
+    }
+}
